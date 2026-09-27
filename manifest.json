@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "spacelemonade.scroll-speed",
+  "name": "Scroll Speed",
+  "version": "1.0.0",
+  "author": "SpaceLemonade",
+  "description": "Touchpad scroll speed slider in the bar, follows your theme",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Scroll Speed",
+    "description": "Touchpad scroll speed slider in the bar, follows your theme",
+    "category": "System",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
